@@ -1,0 +1,17 @@
+html
+  head
+    title= title
+  body
+    h1= message
+    img(src="girl.jpg", alt="Forest")
+    ul
+    each item in items        
+      div
+        li #{item.name}
+    style.
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            background: #e5474b;
+            
+            }
